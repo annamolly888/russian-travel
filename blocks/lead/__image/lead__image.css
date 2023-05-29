@@ -6,7 +6,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   margin: 64px auto 0 auto;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
