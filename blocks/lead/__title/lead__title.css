@@ -5,24 +5,29 @@
   font-size: 96px;
   line-height: 100px;
   align-self: center;
-  margin: 0;
+  margin: 56px auto 0 auto;
   text-align: center;
   color: #ffffff;
   max-height: 200px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1023px) {
   .lead__title {
-    font-size: 50px;
-    line-height: 50px;
-    max-width: 350px;
+    margin: 0 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__title {
+    max-width: 250px;
     font-size: 40px;
     line-height: 44px;
-    max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .lead__title {
+    max-width: 720px;
+    margin: 0 auto 0 auto;
   }
 }

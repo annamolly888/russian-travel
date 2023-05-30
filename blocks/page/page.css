@@ -1,10 +1,6 @@
 .page {
   max-width: 1280px;
   background-color: #2a2c2f;
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  flex-wrap: wrap;
   font-family: Inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,9 +8,17 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1281px) {
+  .page {
+    margin: 0 auto;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
   }
@@ -30,4 +34,4 @@
   .page {
     max-width: 320px;
   }
-}
+} */

@@ -1,9 +1,11 @@
 .place__link {
-  height: 22px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  text-decoration-line: underline;
+  margin: 0;
+  padding: 0;
 }
 
 .place__link:hover {
@@ -11,7 +13,7 @@
   transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__link {
     margin-left: 16px;
   }
